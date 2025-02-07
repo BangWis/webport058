@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านขายเครื่องดนตรี</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        .emoji {
+            display: inline-block;
+            animation: bounce 1.5s infinite;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-100">
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ร้านขายเครื่องดนตรี 🎵</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:underline">หน้าแรก</a></li>
+                    <li><a href="#" class="hover:underline">สินค้า</a></li>
+                    <li><a href="#" class="hover:underline">เกี่ยวกับเรา</a></li>
+                    <li><a href="#" class="hover:underline">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8">
+        <section class="bg-white shadow-md rounded-lg p-8 mb-8">
+            <h2 class="text-3xl font-bold text-center mb-4">
+                ยินดีต้อนรับสู่ร้านขายเครื่องดนตรีของเรา <span class="emoji">🎸</span>
+            </h2>
+            <p class="text-center text-gray-700">พบกับเครื่องดนตรีคุณภาพหลากหลายประเภทในราคาสุดพิเศษ</p>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-center mb-6">สินค้าแนะนำ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://fortismusic.com/wp-content/uploads/2021/06/%E0%B8%81%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%88%E0%B8%87-38-%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-Fortis-FG-240C-N-1.jpg" alt="กีตาร์" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold">กีตาร์</h3>
+                    <p class="text-gray-700">ราคา: 5,000 บาท</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://piano.peterson.co.th/img/default/used/v2021/used-v2-3.png" alt="เปียโน" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold">เปียโน</h3>
+                    <p class="text-gray-700">ราคา: 25,000 บาท</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://marcato.co.th/wp-content/uploads/2023/08/Masters-Maple-Complete_6pc.jpg" alt="กลองชุด" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold">กลองชุด</h3>
+                    <p class="text-gray-700">ราคา: 15,000 บาท</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="text-center mb-16">
+        <button onclick="window.location.href='index.html'" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Back</button>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 6640011058 | ติดต่อ: 065-686-6237 <span class="emoji">📞</span></p>
+        </div>
+    </footer>
+</body>
+</html>
